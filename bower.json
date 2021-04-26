@@ -2,11 +2,11 @@
   "name": "sgd-website",
   "description": "Sunflower Genome Database website",
   "main": "app.js",
-  "authors": [
-    "Evan Staton <evan@evanstaton.com>"
+  "Maintainer": [
+    "Jose Lazaro <jose.lazaroguevara@ubc.ca>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/sestaton/sgd-website",
+  "homepage": "https://github.com/megahitokiri/sgd-website",
   "private": true,
   "ignore": [
     "**/.*",
