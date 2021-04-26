@@ -7,7 +7,7 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     meta(name="description" content="Sunflower Genome Database website")
     meta(name="author" content="Evan Staton")
-    link(rel="stylesheet" href="/css/main.min.css")
+    link(rel="stylesheet" href="assets/css/main.min.css")
     link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css')
     <!-- We must load GMaps assets in order for the map to appear with the page on load. The order is important. -->
     script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
@@ -20,7 +20,7 @@ html
         .header-main.container
           h1.logo.col-md-4.col-sm-4
             a(href='https://sunflowergenome.org')
-              img#logo(src='/images/logo.png', width='300px', height='75px', alt='Logo')
+              img#logo(src='assets/images/logo.png', width='300px', height='75px', alt='Logo')
           .info.col-md-8.col-sm-8
             ul.menu-top.navbar-right.hidden-xs
               li.divider
@@ -119,6 +119,6 @@ html
 
   include footer
   block scripts
-    script(async='' type="text/javascript" src="/js/main.min.js")
-    script(async='' type="text/javascript" src="/js/contact.min.js")
+    script(async='' type="text/javascript" src="assets/js/main.min.js")
+    script(async='' type="text/javascript" src="assets/js/contact.min.js")
     script(async='' src="https://www.google.com/recaptcha/api.js")
