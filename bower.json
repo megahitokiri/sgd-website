@@ -61,7 +61,7 @@
     "font-awesome": "fontawesome#^4.7.0",
     "jquery": "^3.2.1",
     "prettyPhoto_compressed_3.1.6": "http://www.no-margin-for-errors.com/demos/prettyPhoto-jquery-lightbox-clone/prettyPhoto_compressed_3.1.6.zip",
-    "jflickrfeed": "http://files.gethifi.com/posts/jflickrfeed/jflickrfeed.zip",
+    "jflickrfeed": "https://github.com/gwa/jflickrfeed/archive/refs/heads/master.zip",
     "jquery-placeholder": "^2.3.1",
     "gmaps": "^0.4.25",
     "bower": "*",
